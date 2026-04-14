@@ -72,7 +72,7 @@ export default function FamilyTree({ members }: Props) {
       .append('path')
       .attr('class', 'link')
       .attr('fill', 'none')
-      .attr('stroke', '#e2e8f0')
+      .attr('stroke', '#94a3b8')
       .attr('stroke-width', 2.5)
       .attr('stroke-dasharray', d => '5,5') // Dashed lines for a modern look
       .attr('d', d3.linkHorizontal<any, any>()

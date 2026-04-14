@@ -8,6 +8,8 @@
   --color-premium-gold: #c5a059;
   --color-premium-dark: #1a1c1e;
   --color-premium-slate: #2c3e50;
+  --color-premium-blue: #0f172a;
+  --color-premium-bg-blue: #f0f7ff;
 
   /* Override Tailwind 4 oklch defaults with hex for html2canvas compatibility */
   --color-slate-50: #f8fafc;

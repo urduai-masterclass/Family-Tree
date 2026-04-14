@@ -68,10 +68,10 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f8f9fa] font-sans selection:bg-premium-gold/20 selection:text-premium-dark">
+    <div className="min-h-screen bg-premium-bg-blue font-sans selection:bg-premium-gold/20 selection:text-premium-dark">
       {/* Premium Background Pattern */}
-      <div className="fixed inset-0 pointer-events-none opacity-[0.03] z-0" 
-           style={{ backgroundImage: 'radial-gradient(#c5a059 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
+      <div className="fixed inset-0 pointer-events-none opacity-[0.05] z-0" 
+           style={{ backgroundImage: 'radial-gradient(#1e40af 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
 
       {/* Header */}
       <header className="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-20">

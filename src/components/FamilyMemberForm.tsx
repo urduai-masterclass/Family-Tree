@@ -100,9 +100,9 @@ export default function FamilyMemberForm({ members, onAddMember, onDeleteMember 
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           type="submit"
-          className="w-full bg-premium-gold hover:bg-[#b38f4d] text-white font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-3 transition-all shadow-lg shadow-premium-gold/20"
+          className="w-full bg-premium-blue hover:bg-slate-800 text-white font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-3 transition-all shadow-lg shadow-premium-blue/20"
         >
-          <Plus className="w-5 h-5" />
+          <Plus className="w-5 h-5 text-premium-gold" />
           شجرہ میں شامل کریں
         </motion.button>
       </form>
